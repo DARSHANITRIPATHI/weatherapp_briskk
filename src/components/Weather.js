@@ -14,7 +14,7 @@ const Weather = () => {
   const [error, setError] = useState(null); // Error state
   const [history, setHistory] = useState([]); // History state
 
-  const API_KEY = "d47c6bfcc5adf4202a2a5582db156d62";
+  const API_KEY = "Your_api_key";
   const API_URL = `https://api.openweathermap.org/data/2.5/weather`;
 
   const getWeatherImage = (weatherCondition) => {
